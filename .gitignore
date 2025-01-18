@@ -1,0 +1,8 @@
+wordpress/*
+src/languages/*
+src/plugins/*
+src/upgrade/*
+src/themes/twentytwentytwo
+src/themes/twentytwentythree
+src/themes/twentytwentyfour
+src/themes/twentytwentyfive
