@@ -1,0 +1,6 @@
+sudo chown -R 1000:1000 ./frontend
+sudo chown -R 1000:1000 ./frontend/package-lock.json
+
+sudo chown -R 1000:1000 ./wordpress
+
+sudo chown -R 1000:1000 ./mysql.cnf
