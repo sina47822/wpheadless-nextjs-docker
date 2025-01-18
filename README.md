@@ -11,6 +11,7 @@ git config --global pull.rebase true
 git config --global push.autoSetupRemote true
 
 # git config
+```
 [core]
         repositoryformatversion = 0
         filemode = true
@@ -27,3 +28,4 @@ git config --global push.autoSetupRemote true
 [branch "master"]
         remote = origin
         merge = refs/heads/master
+```
