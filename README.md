@@ -1,1 +1,0 @@
-# wpheadless-nextjs-docker
