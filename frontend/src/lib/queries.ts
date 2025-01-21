@@ -14,7 +14,7 @@ export async function getAllPosts(pageNumber: number = 1, perPage: number = 10, 
     params.set('categories', categories.toString());
   }
 
-  // console.log(`${baseUrl}/wp-json/wp/v2/posts?${params.toString()}`)
+  // console.log(`${baseUrl}/wp-json/wp/v2/product?${params.toString()}`)
   const response = await fetch(`${baseUrl}/wp-json/wp/v2/posts?${params.toString()}`, {
     next: {
       revalidate: revalidateTime,
